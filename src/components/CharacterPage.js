@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 import {fetchCharacter} from '../actions';
+import CharacterInventory from './CharacterInventory';
 
 class CharacterPage extends React.Component {
     componentDidMount() {
@@ -10,22 +11,14 @@ class CharacterPage extends React.Component {
 
     renderCharacter() {
         if(!this.props.characterInfo.character) {
-            return;
+            return <div>Loading!</div>;
         }
 
         const character = this.props.characterInfo.character;
         const items = this.props.characterInfo.items;
 
-        console.log(character);
-        console.log(items);
-
         return (
-            <div className="ui list">
-                <div className="item">{character.name}</div>
-                {items.map((item) => {
-                    return <div className="item" key={item.id}>{item.name}</div>
-                })}
-            </div>
+            <CharacterInventory items={items} character={character} />
         );
     }
 

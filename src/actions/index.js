@@ -14,7 +14,7 @@ export const fetchCharacter = (characterName, account) => {
     return async (dispatch) => {
         let config = {
             headers: {
-                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/x-www-form-urlencoded',
+                'accept': 'application/x-www-form-urlencoded',
                 'Content-Type': 'application/www-form-urlencoded'
             }
         }

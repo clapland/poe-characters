@@ -1,0 +1,127 @@
+img {  
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.flask {
+    top: 416px;
+    width: 47px;
+    height: 94px;
+}
+
+.flask1 {
+    left: 185px;
+}
+
+.flask2 { 
+    left: 234px;
+}
+
+.flask3 { 
+    left: 281px;
+}
+
+.flask4 { 
+    left: 328px;
+}
+
+.flask5 { 
+    left: 375px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.weapon {
+    top: 110px;
+    left: 65px;
+    width: 94px;
+    height: 190px;
+}
+
+.ring1 {
+    top: 252px;
+    left: 183px;
+    width: 47px;
+    height: 47px;
+}
+
+.ring2 {
+    top: 252px;
+    left: 368px;
+    width: 47px;
+    height: 47px;
+}
+
+.amulet {
+    top: 193px;
+    left: 368px;
+    width: 47px;
+    height: 47px;
+}
+
+.belt { 
+    left: 250px;
+    top: 358px;
+    width: 94px;
+    height: 47px;
+}
+
+.helm {
+    left: 250px;
+    top: 97px;
+    width: 94px;
+    height: 94px;
+}
+
+.body {
+    left: 250px;
+    top: 205px;
+    width: 94px;
+    height: 141px;
+}
+
+.gloves {
+    left: 134px;
+    top: 312px;
+    width: 94px;
+    height: 94px;
+}
+
+.boots {
+    left: 369px;
+    top: 312px;
+    width: 94px;
+    height: 94px;
+}
+
+.weapon2 {
+    left: 438px;
+    top: 110px;
+    width: 94px;
+    height: 190px;
+}
+
+.itemContainer {
+    position: absolute;
+    background-color: rgba(25,26,150,0.25);
+}
+
+.inventory {
+    position: absolute;
+    width: 600px;
+    height: 531px;
+    background-image: url("/images/inventory.png");
+    background-color: rgba(1,1,1,1);
+}
