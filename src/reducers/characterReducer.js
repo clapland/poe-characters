@@ -1,8 +1,8 @@
-import {FETCH_LADDER} from '../actions/types';
+import {FETCH_CHARACTER} from '../actions/types';
 
 export default(state = {}, action) => {
     switch(action.type) {
-        case FETCH_LADDER:
+        case FETCH_CHARACTER:
             return {...state, ...action.payload};
         default:
             return state;

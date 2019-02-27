@@ -1,1 +1,2 @@
 export const FETCH_LADDER = 'FETCH_LADDER'
+export const FETCH_CHARACTER = 'FETCH_CHARACTER'

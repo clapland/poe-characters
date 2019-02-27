@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
 import {fetchLadder} from '../actions';
@@ -13,7 +14,8 @@ class LadderPage extends React.Component {
             return (
                 <tr key={entry.rank}>
                     <td data-label="Rank">{entry.rank}</td>
-                    <td data-label="Name">{entry.character.name}</td>
+                    <td data-label="Account">{entry.account.name}</td>
+                    <td data-label="Character"><Link to={`/profile/${entry.account.name}/${entry.character.name}`}>{entry.character.name}</Link></td>
                     <td data-label="Class">{entry.character.class}</td>
                 </tr>
             )
@@ -22,14 +24,15 @@ class LadderPage extends React.Component {
 
     render() {
         if(!this.props.ladder) {
-            return <div>Loading</div>
+            return <div>Loading...</div>
         }
         return (
             <table className="ui celled table">
                 <thead>
                     <tr>
                         <th>Rank</th>
-                        <th>Name</th>
+                        <th>Account</th>
+                        <th>Character</th>
                         <th>Class</th>
                     </tr>
                 </thead>
