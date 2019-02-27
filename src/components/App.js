@@ -6,11 +6,11 @@ import LadderPage from './LadderPage';
 const App = () => {
     return (
         <Router>
-            <Switch>
-                <div className="ui container">
-                    <Route exact path="/" component={LadderPage} />
-                </div>
-            </Switch>
+            <div className="ui container">
+                <Switch>
+                        <Route exact path="/" component={LadderPage} />
+                </Switch>
+            </div>
         </Router>
     )
 }
