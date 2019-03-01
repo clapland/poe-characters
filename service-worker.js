@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/poe-characters/precache-manifest.1e6c9441eceb8021617022d600d0e56c.js"
+  "/poe-characters/precache-manifest.179e6194ce39d05cba210de1817d4143.js"
 );
 
 workbox.clientsClaim();
