@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/poe-characters/static/js/runtime~main.a85e64c1.js"
   },
   {
-    "revision": "7c0756e538d39b2832b3",
-    "url": "/poe-characters/static/js/main.7c0756e5.chunk.js"
+    "revision": "61d23680df46dac1e2b1",
+    "url": "/poe-characters/static/js/main.61d23680.chunk.js"
   },
   {
     "revision": "d3f84f9d739572d73cdf",
     "url": "/poe-characters/static/js/2.d3f84f9d.chunk.js"
   },
   {
-    "revision": "7c0756e538d39b2832b3",
+    "revision": "61d23680df46dac1e2b1",
     "url": "/poe-characters/static/css/main.17fbf8b5.chunk.css"
   },
   {
-    "revision": "49893fc7a7d66b6dafa7e3c3e9774266",
+    "revision": "b517dc7565c7af4cc0a7c5cbdf25774a",
     "url": "/poe-characters/index.html"
   }
 ];
